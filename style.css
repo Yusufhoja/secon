@@ -1,0 +1,115 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+header .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 545px;
+}
+
+header .right a {
+  text-decoration: none;
+  color: gray;
+}
+
+.section1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 .container .left {
+  width: 440px;
+  height: 334px;
+}
+
+.section1 .container .left h1 {
+  font-family: Mulish;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section1 .container .left p {
+  font-family: Mulish;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section1 .container .right {
+  width: 609px;
+  height: 532px;
+}
+
+.btn {
+  width: 197px;
+  height: 56px;
+  border-radius: 50px;
+  background-color: #458ff6;
+  border: none;
+  color: white;
+  transition: 0.4s linear;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.btn:active {
+  background-color: red;
+}
+
+header .right a:hover {
+  color: black;
+}
+
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: xx-large;
+}
+
+.p1 {
+  width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.rasm {
+  width: 380px;
+  height: 300px;
+  background-color: rgb(243, 249, 255);
+  border-radius: 20px;
+  margin: 5px;
+
+}
+
+.rasm .p {
+  width: 280px;
+
+}
+
+.p2 {
+  width: 280px;
+}
+
+.rasmla {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 65px;
+
+}
